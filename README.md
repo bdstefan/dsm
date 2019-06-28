@@ -1,2 +1,2 @@
 # dsm
-Daisy Shelter Manager it's an animal shelters management software
+Daisy Shelter Manager it's a management software for animal shelters.
