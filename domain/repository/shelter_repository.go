@@ -1,9 +1,9 @@
-package repository
+package domain
 
 type ShelterRepositoryInterface interface {
-	FindAll() ([]*model.Shelter, error)
-	FindBy(value interface{}) (*model.Shelter, error)
-	Save(shelter *model.Shelter) error
+	FindAll() ([]*Shelter, error)
+	FindBy(value interface{}) (*Shelter, error)
+	Save(shelter *Shelter) error
 }
 
 type ShelterRepository struct {
